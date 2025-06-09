@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Bank Management System</h1>
+
+        <h2>Add Donor</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="blood_type" placeholder="Blood Type">
+        <input type="text" id="contact_info" placeholder="Contact Info">
+        <button onclick="addDonor()">Add Donor</button>
+
+        <h2>View Donors</h2>
+        <button onclick="getDonors()">Get Donors</button>
+        <ul id="donor_list"></ul>
+
+        <h2>Add Blood Request</h2>
+        <input type="text" id="req_blood_type" placeholder="Blood Type">
+        <input type="number" id="quantity" placeholder="Quantity">
+        <input type="text" id="requestor_name" placeholder="Requestor Name">
+        <input type="text" id="req_contact_info" placeholder="Contact Info">
+        <button onclick="addRequest()">Add Request</button>
+
+        <h2>View Blood Requests</h2>
+        <button onclick="getRequests()">Get Requests</button>
+        <ul id="request_list"></ul>
+    </div>
+</body>
+</html>
