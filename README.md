@@ -32,5 +32,5 @@
 
 ## Author
 
-Your Name | your.email@example.com
+Parusha Pal| parushapal9@gmail.com.com
 
